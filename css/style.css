@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+  background-color: #20211f;
+  font-size: 1em;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 0;
+}
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+nav {
+  padding: 1.5rem 2rem;
+}
+ul {
+  display: none;
+}
+
+input:checked ~ ul {
+  display: block;
+}
+
+input {
+  display: none;
+}
+
+h3 , h2 {
+  padding-top: 1.5rem;
+}
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 5%;
+  height: 3.5%;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+label:hover {
+  background: grey;
+}
+
+input:checked ~ label {
+  background: lightgrey;
+}
+
+ul {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: block;
+  background: lightgrey;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+
+li:hover {
+  filter: brightness(110%);
+}
+select{
+    width: 100%;
+    height: 2vh;
+}
+#contenedor1 img {
+  width: 100%;
+}
+#contenedor2 {
+  display: flex;
+  margin: 0 5px;
+  font-size: 0.9em;
+}
+#contenedor2 img {
+  width: 100%;
+}
+.viaje1,
+.viaje2,
+.viaje3 {
+  border: 0.3px solid grey;
+  margin: 7px;
+}
+.viaje1-texto,
+.viaje2-texto,
+.viaje3-texto {
+  padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  #contenedor2 {
+    display: block;
+  }
+}
