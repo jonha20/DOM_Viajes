@@ -54,7 +54,7 @@ const dataViajes = [
     title: "Example Title 3",
     description: "Example Description 3",
     url_img: "./assets/viajes/viajes-7.jpg",
-  }
+  },
 ];
 const cities = [
   "Madrid",
@@ -76,8 +76,7 @@ let num = 6;
 document.querySelectorAll("#contenedor2 div img").forEach((fotos) => {
   fotos.setAttribute("src", getRandomIndex(dataViajes).url_img);
 });
-let destinos = document.getElementById("comunidades")
-cities.forEach(city =>{
-    destinos.innerHTML += `<option value="${city}">${city}</option>`;
-})
-
+let destinos = document.getElementById("comunidades");
+cities.forEach((city) => {
+  destinos.innerHTML += `<option value="${city}">${city}</option>`;
+});
