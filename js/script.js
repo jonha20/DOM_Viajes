@@ -72,7 +72,6 @@ const cities = [
 document
   .querySelectorAll("#contenedor1 > figure > img")[0]
   .setAttribute("src", data[1].url_img);
-let num = 6;
 document.querySelectorAll("#contenedor2 div img").forEach((fotos) => {
   fotos.setAttribute("src", getRandomIndex(dataViajes).url_img);
 });
