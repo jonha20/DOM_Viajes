@@ -17,62 +17,8 @@ main {
   width: 60%;
   margin: 0 auto;
 }
-nav {
-  padding: 1.5rem 2rem;
-}
-ul {
-  display: none;
-}
-
-input:checked ~ ul {
-  display: block;
-}
-
-input {
-  display: none;
-}
-
 h3 , h2 {
   padding-top: 1.5rem;
-}
-label {
-  box-sizing: border-box;
-  display: inline-block;
-  border: 1px solid grey;
-  border-radius: 5px;
-  width: 5%;
-  height: 3.5%;
-  line-height: 30px;
-  font-weight: bold;
-  text-align: center;
-  user-select: none;
-}
-
-label:hover {
-  background: grey;
-}
-
-input:checked ~ label {
-  background: lightgrey;
-}
-
-ul {
-  margin-top: 0;
-  padding: 0;
-  width: 100%;
-}
-
-li {
-  display: block;
-  background: lightgrey;
-  margin: 0;
-  padding: 10px;
-  list-style: none;
-  border-bottom: 1px solid grey;
-}
-
-li:hover {
-  filter: brightness(110%);
 }
 select{
     width: 100%;
