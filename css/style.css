@@ -31,19 +31,17 @@ select{
   display: flex;
   margin: 0 5px;
   font-size: 0.9em;
+  justify-content: center;
+  width: 100%;
 }
 #contenedor2 img {
   width: 100%;
 }
-.viaje1,
-.viaje2,
-.viaje3 {
+.viaje {
   border: 0.3px solid grey;
   margin: 7px;
 }
-.viaje1-texto,
-.viaje2-texto,
-.viaje3-texto {
+.viaje-texto {
   padding: 5px;
 }
 
